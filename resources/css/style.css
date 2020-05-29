@@ -270,6 +270,7 @@ header {
     transition: .5s;
     line-height: 2;
     color: #fff;
+    font-size: 1.6rem;
 }
 .social-link ul li a:hover {
     background: #393939;
