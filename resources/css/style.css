@@ -252,27 +252,26 @@ header {
     color: #3c4761;
 } 
 .social-link {
-    margin-top: 3.5rem;
+    margin-top: 4.5rem;
 }
 .social-link ul li {
     display: inline-block;
-    margin: 0  0.8rem;
+    margin: 0.5rem;
 }
-/* .social-link ul li a {
+.social-link ul li a:link {
     color:#fff;
-} */
-.social-link ul li a {
-    background: #bdd1df;
-    width: 3.4rem;
-    height: 3.4rem;
-    border-radius: 3rem;
-    display: inline-block;
-    transition: .5s;
-    line-height: 2;
-    color: #fff;
-    font-size: 1.6rem;
 }
-.social-link ul li a:hover {
+.social-link ul li a:link i::before {
+    background: #bdd1df;
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    display: inline-block;
+    font-size: 2rem;
+    padding: 1rem;
+    transition: .5s;
+}
+.social-link ul li a:hover i::before {
     background: #393939;
     transform: rotate(360deg);
 }
