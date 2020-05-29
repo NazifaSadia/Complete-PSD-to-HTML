@@ -251,18 +251,56 @@ header {
 .team-section .box p {
     color: #3c4761;
 } 
-.social-link {
+
+
+/* New start */
+.social-link
+{
+    margin-top: 4.5rem;
+}
+
+.social-link ul li
+{
+    display: inline-block;
+    margin: 0 .5rem;
+}
+
+.social-link ul li a
+{
+    background: #bdd1df;
+    width: 3.5rem;
+    height: 3.5rem;
+    font-size: 1.8rem;
+    border-radius: 50%;
+    transition: .5s;
+    display: inline-block;
+    line-height:2;
+    color: #FFF;
+    margin-top: 5px;
+}
+
+.social-link ul li a:hover
+{
+    background: #393939;
+    transform: rotate(360deg);
+}
+
+/* New end */
+
+
+
+/* .social-link {
     margin-top: 4.5rem;
 }
 .social-link ul li {
     display: inline-block;
-    margin: 0.5rem;
+    margin: 0 0.5rem;
 }
 .social-link ul li a:link {
     color:#fff;
 }
 .social-link ul li a:link i::before {
-    background: #bdd1df;
+    background: black;
     width: 2rem;
     height: 2rem;
     border-radius: 50%;
@@ -274,7 +312,10 @@ header {
 .social-link ul li a:hover i::before {
     background: #393939;
     transform: rotate(360deg);
-}
+} */
+
+
+
 /* ========================= */
 /*  SKILLS SECTION  */
 /* ========================= */
@@ -285,7 +326,8 @@ header {
     background-size: cover;
 }
 .skill-section h2, 
-.skill-section h2 {
+.skill-section h2 
+{
     color: #3c4761 !important;
 }
 .skill-section h2::after {
