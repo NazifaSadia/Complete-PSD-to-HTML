@@ -1,0 +1,138 @@
+@media only screen and (max-width: 1024px)
+{
+    html {
+        font-size: 57.5%;
+    }
+    .row {
+        margin: 0 15px;
+    }
+    .hero-text-box {
+        width: 90%;
+    }
+    .main-nav {
+        display: none;
+    }
+    .client-photo {
+        width: 100%;
+        float: none;
+        text-align: center;
+    }
+    .client-review {
+        width: 100%;
+        float: none;
+        text-align: center;
+    }
+    .contact-section form {
+        width: 100%;
+        margin-left: 0;
+    }
+    .footer-section li a {
+        font-size: 2rem;
+    }
+}
+
+@media only screen and (max-width: 980px)
+{
+    .span_1_of_4 {
+        width: 49.2%;
+    }
+    .span_1_of_4:nth-child(3) {
+        margin-left: 0;
+    }
+    h1{
+        font-size: 3.5rem;
+        padding-top: 10rem;
+    }
+    #home {
+        height: 40rem;
+    }
+}
+@media only screen and (max-width: 768px)
+{
+    .little-description {
+        width: 90%;
+        margin-left: 37px;
+    }
+    .portfolio-image {
+        width: 100%;
+        height: auto;
+        margin-left: 7rem;
+    }
+    .span_1_of_2 {
+        width: 45%;
+    }
+    h1 {
+        margin-bottom: 1rem;
+        padding-top: 4rem;
+        font-size: 3.5rem;
+    }
+    h2 {
+        font-size: 3rem;
+    }
+    h3 {
+        font-size: 2rem;
+    }
+    #home {
+        height: 45rem;
+    }
+    .btn, .btn:link, .btn:visited {
+        margin-top: 3rem;
+    }
+    .portfolio-section .span_1_of_2 {
+        width: 60%;
+    }
+    .portfolio-section .col:nth-child(3){
+        float: none; 
+    }
+    .portfolio-section {
+        text-align: center;
+    }
+    .contact-section input[type=email], 
+    .contact-section input[type=text] 
+    {
+        margin-left: 3rem;
+    }
+    .contact-section textarea {
+        width: 91%;
+        margin-left: 1.1rem;
+    }
+    .footer-section li a {
+        font-size: 1.3rem;
+    }
+    .testimonial .col:nth-child(1), 
+    .testimonial .col:nth-child(3)
+    {
+        margin-left: 3rem;
+    }
+    .testimonial .col:nth-child(3), 
+    .testimonial .col:nth-child(4)
+    {
+        margin-top: 3.5rem;
+    }
+}
+
+@media only screen and (max-width: 480px)
+{
+    .span_1_of_4 {
+        width: 100%;
+    }
+    .portfolio-section {
+        text-align: center;
+    }
+    .contact-section .span_1_of_2 {
+        width: 95%;
+    }
+    .contact-section input[type=email], 
+    .contact-section input[type=text] 
+    {
+        margin-left: 1.5rem;
+    }
+    .contact-section textarea {
+        width: 95%;
+        margin-left: .7rem;
+    }
+    .footer-section li {
+        font-size: ;
+        margin: 1rem 2rem;
+    }
+}
