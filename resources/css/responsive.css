@@ -1,13 +1,29 @@
-@media only screen and (max-width: 1024px)
+@media only screen and (max-width: 1200px)
 {
-    html {
-        font-size: 57.5%;
+    header {
+        height: 65vh;  /* 85% vertical height*/
     }
     .row {
         margin: 0 15px;
     }
     .hero-text-box {
         width: 90%;
+    }
+}
+
+@media only screen and (max-width: 1024px)
+{
+    html {
+        font-size: 57.5%;
+     }
+    header {
+        height: 55vh;  /* 85% vertical height*/
+    } 
+    .mobile-menu span {
+        display: block;
+    }
+    h1{
+        font-size: 3.3rem;
     }
     .main-nav {
         display: none;
@@ -49,6 +65,9 @@
 }
 @media only screen and (max-width: 768px)
 {
+    header {
+        height: 60vh;  /* 85% vertical height*/
+    } 
     .little-description {
         width: 90%;
         margin-left: 37px;
@@ -132,7 +151,23 @@
         margin-left: .7rem;
     }
     .footer-section li {
-        font-size: ;
         margin: 1rem 2rem;
     }
+    h1 {
+        font-size: 3rem;
+    }
+    h2 {
+        font-size: 2.5rem;
+    }
+    h3 {
+        font-size: 2rem;
+    }
+    .testimonial .col:nth-child(3), 
+    .testimonial .col:nth-child(4)
+    {
+        margin-top: 4rem;
+    }
+    header {
+        height: 85vh;  /* 85% vertical height*/
+    } 
 }
