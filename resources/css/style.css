@@ -179,6 +179,7 @@ header {
     z-index: 9999;
 }
 .sticky .logo {
+    height: auto;
     margin-top: 0;
     padding-bottom: 1rem;
 }
@@ -226,14 +227,14 @@ header {
 }
 .overlay-content {
     position: relative;
-    top: 25%;
+    top: 10%;
     width: 100%;
     text-align: center;
 }
 .overlay a {
     text-decoration: none;
     display: block;
-    font-size: 3rem;
+    font-size: 2.2rem;
     text-transform: uppercase;
     letter-spacing: .3rem;
     color: #999;
@@ -244,7 +245,7 @@ header {
 }
 .closebtn {
     position: absolute;
-    top: 2rem;
+    top: 1rem;
     right: 4.5rem;
     font-size: 6rem;
 }
@@ -389,6 +390,34 @@ header {
 /* ========================= */
 /*  SKILLS SECTION  */
 /* ========================= */
+
+/*  START ANIMATED CIRCLE  */
+svg.radial-progress {
+    height: auto;
+    max-width: 200px;
+    padding: 1em;
+    -webkit-transform: rotate(-90deg);
+    transform: rotate(-90deg);
+    width: 100%;
+  }
+  
+  svg.radial-progress circle {
+    fill: rgba(0,0,0,0);
+    stroke: #fff;
+    stroke-dashoffset: 219.91148575129; 
+    stroke-width: 10;
+  }
+  
+  svg.radial-progress circle.incomplete { opacity: 0.25; }
+  
+  svg.radial-progress circle.complete { stroke-dasharray: 219.91148575129; }
+  
+  svg.radial-progress text {
+    fill: #fff;
+    text-anchor: middle;
+  }
+  /*  END ANIMATED CIRCLE  */
+
 .skill-section {
     text-align: center;
     background: linear-gradient(rgb(255, 255, 255, 0.9),rgb(255, 255, 255, 0.9)), url("img/skill-bg.jpg");
@@ -464,7 +493,7 @@ svg.ui-ux circle {
     border-radius: .5rem;
     text-transform: uppercase;
     color: #3c4761;
-    margin: 0 .5rem;
+    margin: .5rem;
     -webkit-transition: .5s;
     transition: .5s;
 }

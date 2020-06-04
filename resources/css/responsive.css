@@ -132,6 +132,9 @@
 
 @media only screen and (max-width: 480px)
 {
+    header {
+        height: 85vh;  /* 85% vertical height*/
+    } 
     .span_1_of_4 {
         width: 100%;
     }
@@ -157,17 +160,68 @@
         font-size: 3rem;
     }
     h2 {
-        font-size: 2.5rem;
+        font-size: 2.2rem;
+        margin-left: 4rem;
     }
     h3 {
         font-size: 2rem;
+        margin-left: 4rem;
     }
     .testimonial .col:nth-child(3), 
     .testimonial .col:nth-child(4)
     {
         margin-top: 4rem;
     }
-    header {
-        height: 85vh;  /* 85% vertical height*/
-    } 
+    
+    .logo {
+        margin-left: 2.7rem;
+    }
+    .services-icon {
+        margin-left: 4rem;
+    }
+    .box p {
+        margin-left: 3rem;
+    }
+    .team-member {
+        margin-left: 3rem;
+    }
+    .role {
+        margin-left: 4rem;
+    }
+    .skill-section h2 {
+        font-size: 2.5rem;
+        margin-left: 2rem;
+    }
+    .skill-section .little-description {
+        font-size: 1.4rem;
+        line-height: 2rem;
+        margin-left: 2.1rem;
+    }
+    svg.radial-progress {
+        margin-left: 5rem;
+    }
+    .skill-section .box {
+        margin-top: 3rem;
+    }
+    .portfolio-section .portfolio-filter {
+        margin-left: 4rem;
+    }
+    .portfolio-image {
+        margin-left: 1.5rem;
+        width: 75%;
+    }
+    .portfolio-section .span_1_of_2 {
+        width: 100%;
+        margin-left: 2rem;
+    }
+    .portfolio-section h4 {
+        margin-bottom: 4rem;
+        margin-top: 2rem;
+    }
+    .portfolio-section .col:nth-child(3){
+        margin-left: 2.3rem;
+    }
+    .portfolio-section .btn-load-more {
+        margin-left: 4rem;
+    }
 }
