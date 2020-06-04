@@ -98,9 +98,13 @@ h4 {
     text-decoration: none;
     text-transform: uppercase;
     padding: 1.5rem 6rem;
-    border-radius: .3rem;
+    border-radius: .5rem;
     display: inline-block;
     margin-top: 4.5rem;
+    -webkit-border-radius: .5rem;
+    -moz-border-radius: .5rem;
+    -ms-border-radius: .5rem;
+    -o-border-radius: .5rem;
 }
 /* Paragraph */
 .little-description {
@@ -199,9 +203,14 @@ header {
 .btn-hero:link,
 .btn-hero:visited
  {
-    background: #eb7d4b;
+    /* background: #eb7d4b;*/
     border-color: #c86a40;
+    background-image: linear-gradient(to right, #FF512F 0%, #DD2476 51%, #FF512F 100%);
 }
+.btn-hero:hover { 
+    background-position: right center; 
+}
+
 
 /*  Mobile Menu  */
 .mobile-menu span {
@@ -510,7 +519,9 @@ svg.ui-ux circle {
     margin-left: 0;
 }
 .portfolio-section .btn-load-more {
-    background: #17c2a4;
+    /* background: #17c2a4; */
+    background: rgb(34,193,195);
+    background: linear-gradient(90deg, rgba(34,193,195,1) 0%, rgba(252,215,136,1) 59%);
     border-color: #14a58c;
 }
 .portfolio-section .mixitup-control-active {
@@ -615,12 +626,15 @@ svg.ui-ux circle {
 }
 .btn-submit {
     border: 0;
-    background: #30bae7;
-    border-bottom: .3rem solid #299ec5;
+    /*background: #30bae7;*/
+    background-image: linear-gradient(to right, #1A2980 0%, #26D0CE 51%, #1A2980 100%);
+    border-bottom: .2rem solid #299ec5;
 }
-.btn-submit:hover {
+.btn-submit:hover { 
+    background-position: right center; 
     cursor: pointer;
 }
+
 /* ========================= */
 /*  FOOTER SECTION  */
 /* ========================= */
