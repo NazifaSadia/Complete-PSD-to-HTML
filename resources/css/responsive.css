@@ -153,6 +153,12 @@
         width: 95%;
         margin-left: .7rem;
     }
+    .contact-section h2 {
+        margin-left: 0rem;
+    }
+    .contact-section .little-description {
+        margin-left: 2rem;
+    }
     .footer-section li {
         margin: 1rem 2rem;
     }
@@ -207,7 +213,7 @@
         margin-left: 4rem;
     }
     .portfolio-image {
-        margin-left: 1.5rem;
+        margin-left: 1rem;
         width: 75%;
     }
     .portfolio-section .span_1_of_2 {
@@ -226,5 +232,24 @@
     }
     .social-link{
         margin-left: 3rem;
+    }
+    .testimonial h2 {
+        margin-left: 2.3rem;
+    }
+    .testimonial .little-description {
+        margin-left: 2.5rem;
+    }
+    .client-photo img {
+        margin-left: 0;
+    }
+    .client-review p {
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+    .client-review h3 {
+        margin-left: -1rem;
+    }
+    .client-review .role {
+        margin-left: -1rem;
     }
 }
