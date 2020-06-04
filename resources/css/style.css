@@ -610,7 +610,7 @@ svg.ui-ux circle {
     height: 20rem;
 }
 .contact-section form ::placeholder {
-    color: #fff;
+    color: gainsboro;
     opacity: 1;
 }
 .btn-submit {
@@ -635,7 +635,7 @@ svg.ui-ux circle {
     margin: 0 2rem;
 }
 .footer-section li a {
-    color: #fff;
+    color: gainsboro;
     text-decoration: none;
     text-transform: capitalize;
     font-size: 2rem;
