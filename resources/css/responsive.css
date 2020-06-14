@@ -55,12 +55,48 @@
     .span_1_of_4:nth-child(3) {
         margin-left: 0;
     }
+    .span_1_of_2:nth-child(3) {
+        margin-left: 0;
+    }
     h1{
         font-size: 3.5rem;
-        padding-top: 10rem;
+        padding-top: 8rem;
     }
     #home {
         height: 40rem;
+    }
+    .btn, .btn:link, .btn:visited {
+        margin-top: 3rem;
+    }
+    .services-section .little-description {
+        margin-left: 20%;
+    }
+    .services-section .row {
+        margin-left: 7rem;
+    }
+    .team-section .row {
+        margin-left: 6.5rem;
+    }
+    .skill-section .row {
+        margin-left: 8rem;
+    }
+    .skill-section h2 {
+        margin-right: 5rem;
+    }
+    .skill-section .little-description {
+        font-size: 1.5rem;
+        margin-left: 18%;
+    }
+    .portfolio-section .row {
+        margin-left: 7rem;
+    }
+    .testimonial .row {
+        margin-left: 9rem;
+        width: 80%;
+    }
+    .contact-section form {
+        width: 70%;
+        margin-left: 15%;
     }
 }
 @media only screen and (max-width: 768px)
@@ -87,6 +123,7 @@
     }
     h2 {
         font-size: 3rem;
+        margin-right: 3rem;
     }
     h3 {
         font-size: 2rem;
@@ -96,6 +133,12 @@
     }
     .btn, .btn:link, .btn:visited {
         margin-top: 3rem;
+    }
+    .services-section .row {
+        margin-left: 4rem;
+    }
+    .services-section .little-description {
+        margin-left: 2%;
     }
     .portfolio-section .span_1_of_2 {
         width: 60%;

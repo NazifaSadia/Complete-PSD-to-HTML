@@ -35,10 +35,10 @@ $(document).ready(function(){
              $('html, body').animate({
                  scrollTop: $(hash).offset().top
              }, 800, function () {
-                 windows.location.hash = hash;
+                 window.location.hash = hash;
              });
          }
-     })
+     });
 });
 
 function openNav() {
