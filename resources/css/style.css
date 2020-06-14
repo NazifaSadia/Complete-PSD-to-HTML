@@ -233,8 +233,8 @@ header {
     background-color: rgba(0,0,0,0.9);
     z-index: 1;
     overflow-x: hidden;
-    -webkit-transition: .5s;
-    transition: .5s;
+    -webkit-transition: .6s;
+    transition: .6s;
 }
 .overlay-content {
     position: relative;
